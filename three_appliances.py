@@ -11,4 +11,5 @@ print ("light:", light_kwh, "kwh")
 print ("fan:", fan_kwh, "kwh")
 print ("total kwh:", total_kwh, "kwh")
 print ("total cost :N", total_cost)
-print ("monthly cost:N", total_cost*30)
+print ("monthly cost:N", total_cost*31)
+
