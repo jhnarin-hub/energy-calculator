@@ -13,3 +13,4 @@ print ("total kwh:", total_kwh, "kwh")
 print ("total cost :N", total_cost)
 print ("monthly cost:N", total_cost*31)
 
+
