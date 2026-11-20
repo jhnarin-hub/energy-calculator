@@ -1,26 +1,12 @@
-band = input("Enter your band (A/B/C/D/E): ").upper()
-kwh = float(input("Enter monthly kwh: "))
+hour = float(input("Enter daily hours of electricity: "))
 
-if band == "A":
-    rate = 209.5
-elif band == "B":
-    rate = 63
-elif band == "C":
-    rate = 50
-elif band == "D":
-    rate = 50
-elif band == "E":
-    rate = 50
+if hour >= 20:
+    print("DEAR CUSTOMER, YOU ARE IN BAND A")
+elif hour >= 16:            
+    print("DEAR CUSTOMER, YOU ARE IN BAND B")
+elif hour >= 12:
+    print("DEAR CUSTOMER, YOU ARE IN BAND C")
+elif hour >= 8:
+    print("DEAR CUSTOMER, YOU ARE IN BAND D")
 else:
-    rate = 0
-
-if band not in {"A", "B", "C", "D", "E"}:
-    print("Invalid band")
-else:
-    cost = kwh * rate
-
-    print("Rate: N", rate, "per kwh")
-    print("Monthly cost: N", cost)
-
-    if cost > 20000:
-        print("High electricity cost, consider solar")
+    print("DEAR CUSTOMER, YOU ARE IN BAND E")
