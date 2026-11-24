@@ -9,5 +9,5 @@ elif hour >= 12:
 elif hour >= 8:
     print("DEAR CUSTOMER, YOU ARE IN BAND D")
 else:
-    print("DEAR CUSTOMER, YOU ARE IN BAND E")
+    print("DEAR CUSTOMER, YOU ARE IN BAND E") 
 
