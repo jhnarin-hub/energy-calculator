@@ -1,0 +1,7 @@
+name,watts,hours,rooms,kwh,cost N
+Fridge,150,24,kitchen,3.6,226.8
+TV,100,5,living,0.5,31.5
+Fan,60,8,bedroom,0.48,30.24
+Lights,40,6,living,0.24,15.12
+Laptop,65,4,bedroom,0.26,16.38
+Iron,1000,1,bedroom,1.0,63.0
